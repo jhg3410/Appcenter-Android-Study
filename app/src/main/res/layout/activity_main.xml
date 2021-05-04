@@ -53,6 +53,7 @@
         android:layout_margin="20dp"
         android:text="아이디 또는 비밀번호가 일치하지 않습니다."
         android:textColor="#E91E1E"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="@id/edit_password"
         app:layout_constraintStart_toStartOf="@id/edit_password"
         app:layout_constraintTop_toBottomOf="@id/edit_password" />
@@ -71,6 +72,7 @@
 
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
